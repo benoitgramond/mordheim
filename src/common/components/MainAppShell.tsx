@@ -19,7 +19,7 @@ import {
 import { useState } from 'react';
 import { UserButton } from './UserButton';
 import { IconPlus, IconSearch, IconSelector, IconBulb, IconUser, IconCheckbox, } from '@tabler/icons-react';
-import DarkModeButton from '../DakModeButton';
+import DarkModeButton from './DakModeButton';
 
 const useStyles = createStyles((theme) => ({
   navbar: {
